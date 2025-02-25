@@ -91,9 +91,8 @@
             <artifactId>stripe-java</artifactId>
             <version>28.2.0</version>
         </dependency>  
-	</dependencies>
-	
-	<!--0125エラー4695への対応-->
+
+			<!--0125エラー4695への対応-->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
@@ -102,6 +101,8 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
+
+	</dependencies>
 
 	<build>
 		<plugins>
